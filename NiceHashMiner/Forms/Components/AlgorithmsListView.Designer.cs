@@ -48,6 +48,10 @@
             this.listViewAlgorithms.FullRowSelect = true;
             this.listViewAlgorithms.GridLines = true;
             this.listViewAlgorithms.Location = new System.Drawing.Point(0, 0);
+            this.listViewAlgorithms.Margin = new System.Windows.Forms.Padding(4);
+            this.listViewAlgorithms.MultiSelect = false;
+            this.listViewAlgorithms.Name = "listViewAlgorithms";
+            this.listViewAlgorithms.Size = new System.Drawing.Size(719, 468);=======
             this.listViewAlgorithms.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listViewAlgorithms.MultiSelect = false;
             this.listViewAlgorithms.Name = "listViewAlgorithms";
@@ -55,6 +59,7 @@
             this.listViewAlgorithms.TabIndex = 11;
             this.listViewAlgorithms.UseCompatibleStateImageBehavior = false;
             this.listViewAlgorithms.View = System.Windows.Forms.View.Details;
+            this.listViewAlgorithms.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.listViewAlgorithms_ColumnClick);
             this.listViewAlgorithms.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listViewAlgorithms_MouseClick);
             // 
             // columnHeader0
